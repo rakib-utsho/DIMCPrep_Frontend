@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+:root {
+  --primary: #CFF8F1;
+  --secondary: #168B86;
+  --third: #FFEDE2;
+  --fourth: #E5E5FF;
+  --bgColor: #F1FCFB;
+  --warning: #EB3C13;
+  --badgeColor: #002B5B;
+  --quoteColor: #9FF0E4;
+}
+
+body {
+  font-family: var(--font-open-sans);
+  background: #F1FCFB;
+}
+
+.custom-scroll::-webkit-scrollbar {
+  width: 6px;
+}
+.custom-scroll::-webkit-scrollbar-track {
+  background: transparent;
+}
+.custom-scroll::-webkit-scrollbar-thumb {
+  background-color: #14b8a6;
+  border-radius: 4px;
+}
+
+
+
+@theme {
+  --color-primary: var(--primary);
+  --color-secondary: var(--secondary);
+  --color-warning: var(--warning);
+}
